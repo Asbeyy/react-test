@@ -1,0 +1,39 @@
+.navbar-container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: #bac4aa;
+}
+
+.right-elements{
+    width: 300px;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.left-elements{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.logo{
+    animation: rotate360 5s infinite linear;
+}
+
+
+
+@keyframes rotate360 {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

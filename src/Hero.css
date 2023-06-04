@@ -1,0 +1,28 @@
+.hero-container{
+    width: 100vw;
+    height: 40vh;
+    background: url(/src/assets/sea.jpeg);
+    background-position: center 20%;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+.logo-react{
+    width: 150px;
+    animation: rotate360 5s infinite linear;
+}
+
+
+
+@keyframes rotate360 {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
